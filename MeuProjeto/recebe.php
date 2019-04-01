@@ -1,6 +1,5 @@
 
         <?php
-        // put your code here
         $servidor = "localhost";
         $user = "root";
         $passwd = "";
@@ -26,4 +25,3 @@
         }
         $conecta->close();
         ?>
-
