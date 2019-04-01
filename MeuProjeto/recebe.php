@@ -8,9 +8,9 @@
         $conecta = new mysqli($servidor,$user,$passwd,$database);
         
         if (!$conecta){
-            die("Conexão falhou: " .$conecta->connect_error."<br>");
+            die("Conexao falhou: " .$conecta->connect_error."<br>");
         }
-        echo "Conexão realizada com sucesso";
+        echo "Conexao realizada com sucesso";
         
         $nome = $_POST["nome"];
         $email = $_POST["email"];
